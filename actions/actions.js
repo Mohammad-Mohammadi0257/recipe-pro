@@ -16,5 +16,4 @@ export async function addComment(formData) {
        })
 
        revalidatePath(`/recipes/${recipeId}`)
-
 }

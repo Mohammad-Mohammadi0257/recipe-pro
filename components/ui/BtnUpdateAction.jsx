@@ -1,7 +1,6 @@
 'use client'
 
 import { handleUpdatePath } from '@/actions/btnAction';
-import React from 'react';
 
 const BtnUpdateAction = ({path,type}) => {
     return (

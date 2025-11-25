@@ -1,6 +1,6 @@
 
 
-export async function GET(req, { params }) {
+export async function GET({ params }) {
     const {id} = params
     const res = await fetch(`http://localhost:4000/comments?recipeId=${id}`)
     const data=res.json()
@@ -20,5 +20,5 @@ export async function POST(req,{params}) {
  })
    const data = await res.json();
 //    return Response.json(data);
-   return Response.json({ message: "ثبت شد ✅", comment: data })
+   return Response.json({ message: "ثبت شد ", comment: data })
 }

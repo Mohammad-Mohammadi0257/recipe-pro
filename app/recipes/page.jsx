@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const Page = () => {
     return (
-      <div>
-        
+      <div className='text-gray-900'>
+
       </div>
 
     );
